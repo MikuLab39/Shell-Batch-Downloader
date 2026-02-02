@@ -27,9 +27,11 @@
 
 ## 🚀 快速開始 (Quick Start)
 A：一行指令
+```bash
 bash <(curl -sL https://raw.githubusercontent.com/MikuLab39/Shell-Batch-Downloader/main/download.sh)
 
-B：使用 wget 
+B：使用 wget
+```bash
 # 1. 下載腳本 (注意網址是 raw.githubusercontent.com)
 wget -O download.sh https://raw.githubusercontent.com/MikuLab39/Shell-Batch-Downloader/main/download.sh
 
@@ -40,6 +42,7 @@ chmod +x download.sh
 ./download.sh
 
 C：使用 curl
+```bash
 # 1. 下載腳本 (-o 指定存檔名稱)
 curl -o download.sh https://raw.githubusercontent.com/MikuLab39/Shell-Batch-Downloader/main/download.sh
 
