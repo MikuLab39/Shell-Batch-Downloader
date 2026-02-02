@@ -26,9 +26,12 @@
 * `awk`, `sed`, `grep`
 
 ## 🚀 快速開始 (Quick Start)
-A：一行指令
+
+### 方案 A：一行指令 (免下載直接執行)
+這是最快的方法，無需手動下載檔案。
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/MikuLab39/Shell-Batch-Downloader/main/download.sh)
+bash <(curl -sL [https://raw.githubusercontent.com/MikuLab39/Shell-Batch-Downloader/main/download.sh](https://raw.githubusercontent.com/MikuLab39/Shell-Batch-Downloader/main/download.sh))
+```
 
 B：使用 wget
 ```bash
@@ -40,6 +43,7 @@ chmod +x download.sh
 
 # 3. 執行
 ./download.sh
+```
 
 C：使用 curl
 ```bash
