@@ -26,15 +26,27 @@
 * `awk`, `sed`, `grep`
 
 ## 🚀 快速開始 (Quick Start)
+A：一行指令
+bash <(curl -sL https://raw.githubusercontent.com/MikuLab39/Shell-Batch-Downloader/main/download.sh)
 
-你可以直接使用 curl 下載並執行 (詳見下方說明)，或手動執行：
-
-```bash
-# 1. 下載腳本
-wget [https://github.com/MikuLab39/Shell-Batch-Downloader/main/download.sh](https://github.com/MikuLab39/Shell-Batch-Downloader/main/download.sh)
+B：使用 wget 
+# 1. 下載腳本 (注意網址是 raw.githubusercontent.com)
+wget -O download.sh https://raw.githubusercontent.com/MikuLab39/Shell-Batch-Downloader/main/download.sh
 
 # 2. 給予執行權限
 chmod +x download.sh
 
 # 3. 執行
 ./download.sh
+
+C：使用 curl
+# 1. 下載腳本 (-o 指定存檔名稱)
+curl -o download.sh https://raw.githubusercontent.com/MikuLab39/Shell-Batch-Downloader/main/download.sh
+
+# 2. 給予執行權限
+chmod +x download.sh
+
+# 3. 執行
+./download.sh
+
+
